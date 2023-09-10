@@ -1,0 +1,25 @@
+.component-container {
+  min-height: 80vh;
+}
+
+.component-container span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.component-container p {
+  padding: 1rem;
+  background-color: #c1c1c1;
+  text-align: center;
+  min-width: 150px;
+  color: white;
+  font-weight: bold;
+  transition: ease 200ms;
+  cursor: pointer;
+}
+
+.component-container p:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+}

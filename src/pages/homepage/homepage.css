@@ -1,0 +1,30 @@
+.home-main {
+  justify-self: center;
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-main span {
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #c2c2c2;
+}
+
+.home-main span button {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: ease 200ms;
+  border: 1px solid white;
+  color: white;
+}
+
+.home-main span button:hover {
+  color: blue;
+  border: 1px solid blue;
+}

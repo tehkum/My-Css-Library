@@ -1,0 +1,24 @@
+.text-3xl {
+  font-size: 40px;
+}
+.text-2xl {
+  font-size: 34px;
+}
+.text-xl {
+  font-size: 30px;
+}
+.text-lg {
+  font-size: 26px;
+}
+.text-md {
+  font-size: 20px;
+}
+.text-sm {
+  font-size: 16px;
+}
+.text-xs {
+  font-size: 12px;
+}
+.text-2xs {
+  font-size: 8px;
+}

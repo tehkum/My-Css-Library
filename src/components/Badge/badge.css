@@ -1,0 +1,23 @@
+.badge {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  display: inline;
+}
+
+.badge-success {
+  border: 1px solid green;
+  background-color: rgba(4, 194, 4, 0.495);
+  color: white;
+}
+
+.badge-removed {
+  border: 1px solid red;
+  background-color: rgba(255, 0, 0, 0.292);
+  color: white;
+}
+
+.badge-new {
+  border: 1px solid purple;
+  background-color: rgba(128, 0, 128, 0.31);
+  color: white;
+}

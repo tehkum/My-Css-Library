@@ -1,0 +1,28 @@
+.alert {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  width: 100%;
+  gap: 10px;
+}
+
+.alert-information {
+  border: 1px solid blue;
+  color: blue;
+  background-color: rgba(0, 0, 255, 0.407);
+}
+.alert-success {
+  border: 1px solid green;
+  color: green;
+  background-color: rgba(4, 194, 4, 0.495);
+}
+.alert-danger {
+  border: 1px solid red;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.292);
+}
+.alert-warning {
+  border: 1px solid orange;
+  color: orange;
+  background-color: rgba(255, 255, 0, 0.242);
+}

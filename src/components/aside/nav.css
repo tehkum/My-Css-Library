@@ -1,0 +1,26 @@
+aside {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 10px;
+  border-right: 1px solid #666;
+  /* align-items: ; */
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  transition: ease 200ms;
+}
+
+.nav-item-active {
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 5px;
+  color: white;
+}
+
+.nav-item:hover {
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 5px;
+}

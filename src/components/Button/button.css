@@ -1,0 +1,67 @@
+.floating-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  border: none;
+}
+
+.floating-btn-add {
+  background-color: skyblue;
+}
+
+.floating-btn-edit {
+  background-color: green;
+}
+
+.normal-btn {
+  padding: 0.5rem 1rem;
+  color: skyblue;
+  border-radius: 7px;
+}
+
+.normal-btn-solid {
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.normal-btn-outlined {
+  background-color: white;
+  /* color: white; */
+  border: 1px solid skyblue;
+}
+.normal-btn-ghost {
+  background-color: white;
+  color: skyblue;
+  border: none;
+}
+.normal-btn-link {
+  background-color: white;
+  color: skyblue;
+  border: none;
+  text-decoration: underline;
+}
+
+.icon-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn-Add {
+  color: green;
+}
+.icon-btn-Delete {
+  color: red;
+}
+.icon-btn-Search {
+  color: skyblue;
+}
+.icon-btn-Edit {
+  color: purple;
+}

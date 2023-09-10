@@ -1,0 +1,40 @@
+header {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  align-items: center;
+}
+
+header span {
+  display: flex;
+  gap: 10px;
+}
+
+header span button {
+  padding: 0.5rem 1rem;
+  color: white;
+  border: 1px solid skyblue;
+  border-radius: 5px;
+  background-color: skyblue;
+  transition: ease 200ms;
+}
+
+header span button:hover {
+  border: 1px solid blue;
+  color: blue;
+}
+
+header span input {
+  border-radius: 5px;
+  border: 1px solid skyblue;
+  padding: 0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: skyblue;
+}
+
+@media (max-width: 500px) {
+  .search-field {
+    display: none;
+  }
+}
